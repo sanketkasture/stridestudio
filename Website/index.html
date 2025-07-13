@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stride Studio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -37,13 +37,15 @@
                     <!-- Nav Links -->
                     <div class="collapse navbar-collapse" id="mainNavbar">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="#aboutusSec">About Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#WhatWeOffer">What We Offer</a></li>
+
+                            <li class="nav-item"><a class="nav-link" href="#WhatWeOffer">What Do We Offer</a></li>
                             <li class="nav-item"><a class="nav-link" href="#whatSetsApartSec">What Sets Us Apart</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#strideOffer">Special Offer</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#strideOffer">Special Offer</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="#aboutusSec">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="#HowItWork">How It Works</a></li>
                             <li class="nav-item"><a class="nav-link" href="#FAQSec">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#gallerySec">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="#Footersec">Contact Us</a></li>
                         </ul>
                     </div>
@@ -55,7 +57,8 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./images/Banner-01.png" class="d-block w-100" alt="...">
+                <img src="./images/Banner-01.webp" class="d-block w-100"
+                    alt="Woman seated in cross-legged position with arms raised overhead, practicing mindful stretching">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="mt-5" data-aos="fade-down" data-aos-duration="500">Power your body. Calm your mind. <span
                             class="fw-bold">Find your flow at
@@ -75,7 +78,8 @@
             </div>
 
             <div class="carousel-item">
-                <img src="./images/Banner-02.png" class="d-block w-100" alt="...">
+                <img src="./images/Banner-02.webp" class="d-block w-100"
+                    alt="Woman performing core strengthening exercise on a stability ball with one leg raised">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="mt-5" data-aos="fade-down" data-aos-duration="500">Move with purpose. Breathe with
                         intention. <span class="fw-bold">Live with Balance.</span></h1>
@@ -93,7 +97,8 @@
             </div>
 
             <div class="carousel-item">
-                <img src="./images/Banner-03.png" class="d-block w-100" alt="...">
+                <img src="./images/Banner-03.webp" class="d-block w-100"
+                    alt="Woman practicing chair yoga with arms extended upward in a mirrored studio space">
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="mt-5" data-aos="fade-down" data-aos-duration="500"><span class="fw-bold">Mindful
                             Movement</span> for every body</h1>
@@ -112,138 +117,11 @@
         </div>
     </div>
 
-    <section id="aboutusSec">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 aboutVideo" data-aos="fade-in" data-aos-duration="500">
-                    <video id="myVideo" width="100%" height="400" src="./images/StrideStudio-About Me.mp4"
-                        type="video/mp4"></video>
-
-                    <button id="toggleBtn"><i class="fa fa-play"></i></button>
-
-                </div>
-
-                <div class="col-md-7">
-                    <div class="coreprincipleSec">
-                        <h2 data-aos="fade-down" data-aos-duration="500">From Dream to Reality: <strong>The Stride
-                                Story</strong></h2>
-                        <!-- Repeat this row for 7 cards -->
-                        <!-- Card 1 -->
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="500">
-                            <div class="row g-0 align-items-center align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-1.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Be Brave</h5>
-                                        <p class="card-text">Take bold steps even when the path is uncertain. Growth
-                                            begins where comfort ends.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="800">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-2.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Embrace Yourself</h5>
-                                        <p class="card-text">Accept every version of yourself with kindness. Growth is a
-                                            journey, not a fixed state.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="1100">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-3.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Explore New Paths</h5>
-                                        <p class="card-text">Trying new things opens up fresh possibilities and keeps
-                                            the mind and body energized.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="1400">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-4.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Stick to Routine</h5>
-                                        <p class="card-text">Consistency builds progress. A regular practice nurtures
-                                            strength, stability, and focus.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="1700">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-5.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Respect Your Body</h5>
-                                        <p class="card-text">Listen to your body’s signals. Practice mindfully and honor
-                                            your physical limits.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="2000">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-6.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Keep Learning</h5>
-                                        <p class="card-text">Stay open to new insights. Growth thrives on curiosity,
-                                            humility, and continuous learning.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="2300">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-1 cardIcon">
-                                    <img src="./images/Principle-7.png" class="img-fluid card-img" alt="Card Image">
-                                </div>
-                                <div class="col-md-11">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Practice Patience</h5>
-                                        <p class="card-text">Transformation takes time. Be kind to yourself through
-                                            every step of the journey.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="WhatWeOffer" class="mt-5 pt-5">
-        <span><img src="./images/sun.png" class="img-fluid sun"></span>
-        <span class="offerStripe"><img src="./images/stripe.png" class="img-fluid"></span>
+    <section id="WhatWeOffer" class=" pt-5">
+        <span><img src="./images/sun.png" class="img-fluid sun" alt="sun vector"></span>
+        <span class="offerStripe"><img src="./images/stripe.png" class="img-fluid" alt="stripe"></span>
         <div class="container  text-white">
             <h2 class="text-center" data-aos="fade-down" data-aos-duration="500">What do <strong>we offer?</strong></h2>
             <p class="w-50 mx-auto pb-3 text-center" data-aos="fade-in" data-aos-duration="1000">At Stride, each class
@@ -256,18 +134,19 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" data-aos="fade-in" data-aos-duration="1000">
                     <div class="card h-100">
-                        <img src="./images/IyengarYoga.png" class="card-img-top" alt="...">
+                        <img src="./images/IyengarYoga.png" class="card-img-top"
+                            alt="Woman practicing Yoga using a chair prop for alignment support">
                         <div class="card-body">
-                            <h5 class="card-title">Iyengar Yoga</h5>
-                            <p class="card-text">Developed by B.K.S Iyengar, it is a form of yoga that emphasizes
-                                precision, alignment, and the use of props to achieve stability and depth in each
-                                posture.</p>
+                            <h5 class="card-title">Yoga</h5>
+                            <p class="card-text">A style of yoga that emphasizes precision, alignment, and the use of
+                                props to achieve stability and depth in each posture.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col" data-aos="fade-in" data-aos-duration="1500">
                     <div class="card h-100">
-                        <img src="./images/MatworkPilates.png" class="card-img-top" alt="...">
+                        <img src="./images/MatworkPilates.png" class="card-img-top"
+                            alt="Woman performing a leg raise exercise during a Matwork Pilates session">
                         <div class="card-body">
                             <h5 class="card-title">Matwork Pilates</h5>
                             <p class="card-text">Developed by Joseph Pilates, it is a low-impact exercise method focused
@@ -278,7 +157,8 @@
                 </div>
                 <div class="col" data-aos="fade-in" data-aos-duration="2000">
                     <div class="card h-100">
-                        <img src="./images/RestorativeYoga.png" class="card-img-top" alt="...">
+                        <img src="./images/RestorativeYoga.png" class="card-img-top"
+                            alt="Group of people in a Restorative Yoga class using bolsters for relaxation poses">
                         <div class="card-body">
                             <h5 class="card-title">Restorative Yoga</h5>
                             <p class="card-text">Unwind and recharge with our Restorative Yoga classes. Our classes also
@@ -292,186 +172,9 @@
         </div>
     </section>
 
-
-
-
-    <section id="whatSetsApartSec" class="position-relative content">
-        <span class="hlfcircle"><img src="./images/Halfcircle.png" class="img-fluid"></span>
-        <span class="stripe"><img src="./images/stripe.png" class="img-fluid"></span>
-        <div class="container-fluid">
-            <h2 class="text-center" data-aos="fade-down" data-aos-duration="500">What Sets <strong>Us Apart?</strong>
-            </h2>
-            <p class="text-center w-50 mx-auto pb-4" data-aos="fade-in" data-aos-duration="1000">At Stride, we're
-                passionate about providing a top-notch experience
-                for
-                our students.<br>Here's what makes us unique:</p>
-            <div class="row">
-                <div class="col-md-4 apartLeftSec">
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1000">
-                        <div class="row g-0 align-items-center align-items-center justify-content-end">
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">State-of-the-art facilities</h5>
-                                    <p class="card-text">Stride is equipped with the latest equipment and props to
-                                        enhance your practice.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-1.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1200">
-                        <div class="row g-0 align-items-center align-items-center justify-content-end">
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Expert guidance</h5>
-                                    <p class="card-text">Learn from certified and experienced instructor who'll tailor
-                                        their teaching to your needs.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-2.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1400">
-                        <div class="row g-0 align-items-center align-items-center justify-content-end">
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Variety is the spice of life</h5>
-                                    <p class="card-text">Explore different yoga and Pilates styles to find what works
-                                        best for you.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-3.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1600">
-                        <div class="row g-0 align-items-center align-items-center justify-content-end">
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Serenity now</h5>
-                                    <p class="card-text">Unwind in our peaceful, calming environment and leave stress
-                                        behind.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-4.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1800">
-                        <div class="row g-0 align-items-center align-items-center justify-content-end">
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Holistic approach</h5>
-                                    <p class="card-text">We focus on the whole you – body, mind,and spirit.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-5.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-in" data-aos-duration="500">
-                    <img src="./images/SetsAparts.png" class=" img-fluid apartSecCenterImg">
-                </div>
-
-
-                <div class="col-md-4 apartRightSec">
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1000">
-                        <div class="row g-0 align-items-center align-items-center">
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-6.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Perfectly comfortable</h5>
-                                    <p class="card-text">Our air-conditioned space ensures you stay cool and focused,
-                                        whether you're sweating it out or unwinding.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1200">
-                        <div class="row g-0 align-items-center align-items-center">
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-7.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Personalized attention</h5>
-                                    <p class="card-text">With small class sizes, you'll get the individual feedback and
-                                        adjustments you need to progress.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1400">
-                        <div class="row g-0 align-items-center align-items-center">
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-8.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Schedule flexibility</h5>
-                                    <p class="card-text">We've got classes to fit your busy lifestyle, so you can
-                                        prioritize your wellness.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1600">
-                        <div class="row g-0 align-items-center align-items-center">
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-9.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Community vibes</h5>
-                                    <p class="card-text">Join a like-minded community that supports and motivates you.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1800">
-                        <div class="row g-0 align-items-center align-items-center">
-                            <div class="col-md-2 cardIcon">
-                                <img src="./images/Apart-icon-10.png" class="img-fluid card-img" alt="Card Image">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body">
-                                    <h5 class="card-title">Membership options for everyone</h5>
-                                    <p class="card-text">Choose a package that suits your needs and budget.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-
     <section id="strideOffer">
         <div class="container">
-            <img src="./images/sun.png" class="img-fluid sun">
+            <img src="./images/sun.png" class="img-fluid sun" alt="Sun Vector">
 
             <div class="row">
                 <div class="card custom-card">
@@ -482,7 +185,9 @@
 
                         <div class="col-md-9 ps-5">
                             <div class="card-body text-white">
-                                <h2 class="card-title" data-aos="fade-down" data-aos-duration="500">Special Offers</h2>
+                                <h2 class="card-title" data-aos="fade-down" data-aos-duration="500">Special
+                                    <strong>Offer</strong>
+                                </h2>
                                 <h3 data-aos="fade-in" data-aos-duration="1000">New Student Discount:</h3>
                                 <h4 class="card-text" data-aos="fade-in" data-aos-duration="1200">10% off on your first
                                     month of joining</h4>
@@ -506,11 +211,399 @@
 
 
 
+
+    <section id="whatSetsApartSec" class="position-relative content">
+        <span class="hlfcircle"><img src="./images/Halfcircle.png" class="img-fluid" alt="Halfcircle"></span>
+        <span class="stripe"><img src="./images/stripe.png" class="img-fluid" alt="Stripe"></span>
+        <div class="container-fluid">
+            <h2 class="text-center" data-aos="fade-down" data-aos-duration="500">What Sets <strong>Us Apart?</strong>
+            </h2>
+            <p class="text-center w-50 mx-auto pb-4" data-aos="fade-in" data-aos-duration="1000">At Stride, we're
+                passionate about providing a top-notch experience
+                for
+                our students.<br>Here's what makes us unique:</p>
+            <div class="row">
+                <div class="col-md-4 apartLeftSec">
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1000">
+                        <div class="row g-0 align-items-center align-items-center justify-content-end">
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">State-of-the-art facilities</h5>
+                                    <p class="card-text">Stride is equipped with the latest equipment and props to
+                                        enhance your practice.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-1.png" class="img-fluid card-img"
+                                    alt="Yoga mat icon representing modern facilities">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1200">
+                        <div class="row g-0 align-items-center align-items-center justify-content-end">
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Expert guidance</h5>
+                                    <p class="card-text">Learn from certified and experienced instructor who'll tailor
+                                        their teaching to your needs.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-2.png" class="img-fluid card-img"
+                                    alt="Instructor icon symbolizing expert yoga guidance">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1400">
+                        <div class="row g-0 align-items-center align-items-center justify-content-end">
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Variety is the spice of life</h5>
+                                    <p class="card-text">Explore different yoga and Pilates styles to find what works
+                                        best for you.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-3.png" class="img-fluid card-img"
+                                    alt="Yoga pose icon representing variety of classes">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1600">
+                        <div class="row g-0 align-items-center align-items-center justify-content-end">
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Serenity now</h5>
+                                    <p class="card-text">Unwind in our peaceful, calming environment and leave stress
+                                        behind.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-4.png" class="img-fluid card-img"
+                                    alt="People meditating icon symbolizing calm environment">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1800">
+                        <div class="row g-0 align-items-center align-items-center justify-content-end">
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Holistic approach</h5>
+                                    <p class="card-text">We focus on the whole you – body, mind,and spirit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-5.png" class="img-fluid card-img"
+                                    alt="Leaf and heart icon representing holistic wellness">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-in" data-aos-duration="500">
+                    <img src="./images/SetsAparts.png" class=" img-fluid apartSecCenterImg"
+                        alt="Silhouette of a person in lotus pose with abstract lotus petals in backgroun">
+                </div>
+
+
+                <div class="col-md-4 apartRightSec">
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1000">
+                        <div class="row g-0 align-items-center align-items-center">
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-6.png" class="img-fluid card-img"
+                                    alt="Calendar and fan icon representing air-conditioned comfort">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Perfectly comfortable</h5>
+                                    <p class="card-text">Our air-conditioned space ensures you stay cool and focused,
+                                        whether you're sweating it out or unwinding.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1200">
+                        <div class="row g-0 align-items-center align-items-center">
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-7.png" class="img-fluid card-img"
+                                    alt="Person meditating icon symbolizing personalized instruction">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Personalized attention</h5>
+                                    <p class="card-text">With small class sizes, you'll get the individual feedback and
+                                        adjustments you need to progress.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1400">
+                        <div class="row g-0 align-items-center align-items-center">
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-8.png" class="img-fluid card-img"
+                                    alt="Clock and yoga icon for flexible class timings">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Schedule flexibility</h5>
+                                    <p class="card-text">We've got classes to fit your busy lifestyle, so you can
+                                        prioritize your wellness.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1600">
+                        <div class="row g-0 align-items-center align-items-center">
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-9.png" class="img-fluid card-img"
+                                    alt="Mandala icon representing supportive community">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Community vibes</h5>
+                                    <p class="card-text">Join a like-minded community that supports and motivates you.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custom-card" data-aos="fade-in" data-aos-duration="1800">
+                        <div class="row g-0 align-items-center align-items-center">
+                            <div class="col-md-2 cardIcon">
+                                <img src="./images/Apart-icon-10.png" class="img-fluid card-img"
+                                    alt="ID card icon representing membership packages">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body">
+                                    <h5 class="card-title">Membership options for everyone</h5>
+                                    <p class="card-text">Choose a package that suits your needs and budget.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <section id="aboutusSec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 aboutVideo" data-aos="fade-in" data-aos-duration="500">
+                    <video id="myVideo" width="100%" height="400" src="./images/StrideStudio-About Me.mov"
+                        type="video/mp4"></video>
+
+                    <button id="toggleBtn"><i class="fa fa-play"></i></button>
+
+                </div>
+
+                <div class="col-md-7">
+                    <div class="coreprincipleSec">
+                        <h2 data-aos="fade-down" data-aos-duration="500">About Us</h2>
+                        <!-- Repeat this row for 7 cards -->
+                        <!-- Card 1 -->
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="500">
+                            <div class="row g-0 align-items-center align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-1.png" class="img-fluid card-img"
+                                        alt="Shield icon symbolizing courage and bold action">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Be Brave</h5>
+                                        <p class="card-text">Take bold steps even when the path is uncertain. Growth
+                                            begins where comfort ends.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="800">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-2.png" class="img-fluid card-img"
+                                        alt="Heart with arms icon representing self-acceptance and kindnes">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Embrace Yourself</h5>
+                                        <p class="card-text">Accept every version of yourself with kindness. Growth is a
+                                            journey, not a fixed state.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="1100">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-3.png" class="img-fluid card-img"
+                                        alt="Spark icon symbolizing new beginnings and possibilities">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Explore New Paths</h5>
+                                        <p class="card-text">Trying new things opens up fresh possibilities and keeps
+                                            the mind and body energized.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="1400">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-4.png" class="img-fluid card-img"
+                                        alt="Cycle icon symbolizing consistency and regular practice">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Stick to Routine</h5>
+                                        <p class="card-text">Consistency builds progress. A regular practice nurtures
+                                            strength, stability, and focus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="1700">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-5.png" class="img-fluid card-img"
+                                        alt="Meditation icon representing mindful body awareness">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Respect Your Body</h5>
+                                        <p class="card-text">Listen to your body’s signals. Practice mindfully and honor
+                                            your physical limits.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="2000">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-6.png" class="img-fluid card-img"
+                                        alt="Plant icon representing growth through learning">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Keep Learning</h5>
+                                        <p class="card-text">Stay open to new insights. Growth thrives on curiosity,
+                                            humility, and continuous learning.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card custom-card" data-aos="fade-in" data-aos-duration="2300">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-1 cardIcon">
+                                    <img src="./images/Principle-7.png" class="img-fluid card-img"
+                                        alt="Clock icon symbolizing patience and steady transformation">
+                                </div>
+                                <div class="col-md-11">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Practice Patience</h5>
+                                        <p class="card-text">Transformation takes time. Be kind to yourself through
+                                            every step of the journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="HowItWork" class="position-relative">
+        <div class="container-fluid m-0 p-0">
+            <h2 data-aos="fade-down" data-aos-duration="500" class="text-center">How It <strong>Works</strong></h2>
+            <div class="HowItWorksVideo">
+                <video autoplay muted loop class="bg-video">
+                    <source src="./images/StrideVideo.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="HowItworkSec text-center">
+
+
+
+                <div class="allCards">
+                    <div data-aos="fade-in" data-aos-duration="1000" class="card custom-card"
+                        style="border-right: 1px solid #ddd;border-bottom: 1px solid #ddd;">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Class length?</h4>
+                            <p class="card-text">Each session typically lasts for 60 minutes.</p>
+                        </div>
+
+                    </div>
+
+                    <div data-aos="fade-in" data-aos-duration="1300" class="card custom-card"
+                        style="border-right: 1px solid #ddd;">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Class size?</h4>
+                            <p class="card-text">Small groups to ensure personalized attention.</p>
+                        </div>
+
+                    </div>
+
+
+                    <div data-aos="fade-in" data-aos-duration="1900" class="card custom-card"
+                        style="border-bottom: 1px solid #ddd;">
+
+                        <div class="card-body">
+                            <h4 class="card-title">What to wear?</h4>
+                            <p class="card-text">Comfortable, stretchy clothing.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div data-aos="fade-in" data-aos-duration="2200" class="card custom-card border-0">
+
+                        <div class="card-body">
+                            <h4 class="card-title">Eat before class?</h4>
+                            <p class="card-text">Light meal/snack recommended.</p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section id="FAQSec">
         <div class="container text-center">
-            <small data-aos="fade-in" data-aos-duration="1000">FAQ</small>
-            <h2 data-aos="fade-down" data-aos-duration="500" class="mb-4">Answers to <strong>Common Yoga and Meditation
-                    Questions</strong></h2>
+            <!-- <small data-aos="fade-in" data-aos-duration="1000"></small> -->
+            <h2 data-aos="fade-down" data-aos-duration="500" class="mb-4">Frequently Asked <strong
+                    class="fw-bold">Questions</strong></h2>
             <div class="row g-4">
                 <!-- Accordion Section -->
 
@@ -751,81 +844,13 @@
         </div>
     </section>
 
-    <section id="HowItWork" class="position-relative">
-        <div class="container-fluid m-0">
+    <section id="testimonoalWrapper" class="position-relative">
+        <span class="hlfcircle"><img src="./images/Halfcircle.png" class="img-fluid" alt="Halfcircle"></span>
+        <div class="container text-center">
             <div class="row">
-                <div class="col-md-7 p-0">
-                    <video autoplay muted loop class="bg-video">
-                        <source src="./images/StrideVideo.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <div class="col-md-5 HowItworkSec text-center">
-                    <h2 data-aos="fade-down" data-aos-duration="500"><strong>How It Works</strong></h2>
-
-
-                    <div class="allCards">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div data-aos="fade-in" data-aos-duration="1000" class="card custom-card"
-                                    style="border-right: 1px solid #ddd;border-bottom: 1px solid #ddd;">
-
-                                    <div class="card-body">
-                                        <h5 class="card-title">Class length?</h5>
-                                        <p class="card-text">Each session typically lasts for 60 minutes.</p>
-                                    </div>
-
-                                </div>
-
-                                <div data-aos="fade-in" data-aos-duration="1300" class="card custom-card"
-                                    style="border-right: 1px solid #ddd;">
-
-                                    <div class="card-body">
-                                        <h5 class="card-title">Class size?</h5>
-                                        <p class="card-text">Small groups to ensure personalized attention.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div data-aos="fade-in" data-aos-duration="1900" class="card custom-card"
-                                    style="border-bottom: 1px solid #ddd;">
-
-                                    <div class="card-body">
-                                        <h5 class="card-title">What to wear?</h5>
-                                        <p class="card-text">Comfortable, stretchy clothing.
-                                        </p>
-                                    </div>
-
-                                </div>
-
-                                <div data-aos="fade-in" data-aos-duration="2200" class="card custom-card">
-
-                                    <div class="card-body">
-                                        <h5 class="card-title">Eat before class?</h5>
-                                        <p class="card-text">Light meal/snack recommended.</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonoalWrapper">
-        <div class="container text-center text-white">
-            <div class="row">
-
+                <img src="./images/QuoteIcon.png" class="img-fluid" alt="Quote Icon">
                 <small data-aos="fade-in" data-aos-duration="1000">Testimonials</small>
-                <h2 class="pb-3 text-white" data-aos="fade-down" data-aos-duration="500">What Our <strong>Clients
+                <h2 class="pb-3" data-aos="fade-down" data-aos-duration="500">What Our <strong>Clients
                         Say</strong></h2>
                 <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -923,7 +948,7 @@
 
                                 <p>I have been regularly attending yoga classes.Smriti is a great teacher.This
                                     institute
-                                    teaches iyengar yoga in the right manner for a beginner to grow and advance in
+                                    teaches yoga in the right manner for a beginner to grow and advance in
                                     this
                                     journey. I have lots of fun. Most importantly, I gain many new techniques for
                                     improving
@@ -939,7 +964,7 @@
                                     for the
                                     past two years with different teachers, and while each one brings something
                                     unique,
-                                    joining Iyengar yoga with Smriti has been an especially amazing experience.
+                                    joining yoga with Smriti has been an especially amazing experience.
                                     She is soft-spoken, attentive, and truly encouraging. Smriti makes sure to
                                     support
                                     everyone in the session, always reminding us to keep going and believe in
@@ -987,15 +1012,27 @@
 
                     </div>
 
-                    <!-- Controls -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </button>
+                    <!-- Carousel Controls -->
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="btn btn-outline-primary me-2 leftArrow" type="button"
+                            data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-arrow-left">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <button class="btn btn-outline-primary RightArrow" type="button"
+                            data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-arrow-right">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -1004,86 +1041,10 @@
     </section>
 
 
-    <section id="gallerySec1" class="d-none">
-        <div class="container">
-            <h2 class="mb-4 text-center " data-aos="fade-down" data-aos-duration="500"><strong>Stride</strong> Gallery
-            </h2>
-            <div class="row my-4">
-                <a href="./images/gallery-1.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-1.jpeg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-20.jpg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-20.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-3.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-4.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-5.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-6.jpg" class="img-fluid">
-                </a>
-
-                <a href="./images/gallery-7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-7.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-8.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-8.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-9.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-2">
-                    <img src="./images/gallery-9.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-10.jpg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-10.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-11.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-11.jpeg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-12.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-12.jpeg" class="img-fluid">
-                </a>
-
-                <a href="./images/gallery-13.jpeg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-13.jpeg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-14.HEIC" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-14.HEIC" class="img-fluid">
-                </a>
-                <a href="./images/gallery-15.HEIC" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-15.HEIC" class="img-fluid">
-                </a>
-                <a href="./images/gallery-16.HEIC" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-16.HEIC" class="img-fluid">
-                </a>
-                <a href="./images/gallery-17.jpg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-17.jpg" class="img-fluid">
-                </a>
-                <a href="./images/gallery-18.jpg" data-toggle="lightbox" data-gallery="example-gallery"
-                    class="col-sm-2">
-                    <img src="./images/gallery-18.jpg" class="img-fluid">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="gallerySec">
+    <section id="gallerySec" class="mt-5 mb-3 position-relative">
 
         <div class="container">
-            <h2 class="mb-4 text-center " data-aos="fade-down" data-aos-duration="500"><strong>Stride</strong> Gallery
+            <h2 class="mb-4 text-center " data-aos="fade-down" data-aos-duration="500">Gallery
             </h2>
             <div class="gallery">
                 <img src="./images/gallery-1.jpeg" alt="1">
@@ -1116,23 +1077,38 @@
 
     </section>
 
-
-
-
     <footer id="Footersec">
         <div class="container">
             <div class="row align-items-center text-white">
                 <!-- Left Section (20%) -->
-                <div class="col-2 left-section">
-                    <img src="./images/StrideLogo-Footer.png" data-aos="fade-in" data-aos-duration="500" class="mb-3">
+                <div class="col-lg-3 col-12 left-section">
 
-                    <div class="cardIcon mx-auto d-block">
-                        <a href="https://www.instagram.com/stridestudio303/" target="_blank"><img
-                                src="./images/instagram.png" class="img-fluid card-img" alt="Card Image"></a>
+                    <img src="./images/StrideLogo-Footer.png" alt="Stride Logo" data-aos="fade-in"
+                        data-aos-duration="500" class="mb-3">
+
+
+                    <div>
+                        <h5 data-aos="fade-down" data-aos-duration="500">Working Time</h5>
+                        <ul data-aos="fade-in" data-aos-duration="1000">
+                            <li>Mon - Fri: 6.00am to 8.00pm</li>
+                            <li>Saturday: 8.00am - 1.00pm</li>
+                            <li>Sunday Closed</li>
+                        </ul>
                     </div>
+                    <div>
+                        <h5 data-aos="fade-down" data-aos-duration="500" class="pt-2">Follow Us On</h5>
+                        <div class="cardIcon  d-block">
+
+                            <a href="https://www.instagram.com/stridestudio303/" target="_blank"><img
+                                    src="./images/instagram.png" class="img-fluid card-img" alt="Instagram Icon"></a>
+
+
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="col-1"></div>
+                <!-- <div class="col-1"></div> -->
 
                 <!-- Right Section (80%) -->
                 <div class="col-9 right-section">
@@ -1149,32 +1125,27 @@
                         <div class="col-md-3 col-12 col-33">
                             <h5 data-aos="fade-down" data-aos-duration="500">Useful Link</h5>
                             <ul data-aos="fade-in" data-aos-duration="1000">
-                                <li><a href="#aboutusSec">About</a></li>
-                                <li><a href="#WhatWeOffer">What We Offer</a></li>
+
+                                <li><a href="#WhatWeOffer">What Do We Offer</a></li>
                                 <li><a href="#whatSetsApartSec">What Sets Us Apart</a></li>
-                                <li><a href="#strideOffer">Special Offer</a></li>
+                                <!-- <li><a href="#strideOffer">Special Offer</a></li> -->
+                                <li><a href="#aboutusSec">About</a></li>
                                 <li><a href="#HowItWork">How It Works</a></li>
+                                <li><a href="#gallerySec">Gallery</a></li>
                                 <li><a href="#FAQSec">FAQ</a></li>
 
 
                             </ul>
                         </div>
                         <div class="col-md-4 col-12 col-33">
-                            <h5 data-aos="fade-down" data-aos-duration="500">Working Time</h5>
-                            <ul data-aos="fade-in" data-aos-duration="1000">
-                                <li>Mon - Fri: 6.00am to 8.00pm</li>
-                                <li>Saturday: 8.00am - 1.00pm</li>
-                                <li>Sunday Closed</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-5 col-12 col-33">
                             <h5 data-aos="fade-down" data-aos-duration="500">Contact Details</h5>
                             <ul class="list-unstyled" data-aos="fade-in" data-aos-duration="1000">
                                 <li>
                                     <div class="card custom-card">
                                         <div class="row g-0 align-items-center align-items-center">
                                             <div class="col-md-3 col-3 cardIcon">
-                                                <img src="./images/pin.png" class="img-fluid card-img" alt="Card Image">
+                                                <img src="./images/pin.png" class="img-fluid card-img"
+                                                    alt="Address Icon">
                                             </div>
                                             <div class="col-md-9 col-9">
                                                 <div class="card-body">
@@ -1189,7 +1160,7 @@
                                         <div class="row g-0 align-items-center align-items-center">
                                             <div class="col-md-3 col-3 cardIcon">
                                                 <img src="./images/telephone.png" class="img-fluid card-img"
-                                                    alt="Card Image">
+                                                    alt="Phone Icon">
                                             </div>
                                             <div class="col-md-9 col-9">
                                                 <div class="card-body">
@@ -1204,7 +1175,7 @@
                                         <div class="row g-0 align-items-center align-items-center">
                                             <div class="col-md-3 col-3 cardIcon">
                                                 <img src="./images/email.png" class="img-fluid card-img"
-                                                    alt="Card Image">
+                                                    alt="Email Icon">
                                             </div>
                                             <div class="col-md-9 col-9">
                                                 <div class="card-body">
@@ -1216,6 +1187,14 @@
                                     </div>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="col-md-5 col-12 col-33">
+                            <h5 data-aos="fade-down" data-aos-duration="500">Visit Our Location</h5>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.499233446787!2d73.9540945749637!3d18.55151828254807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3604982141b%3A0x5468f865b5dcf088!2sStride%20Studio!5e0!3m2!1sen!2sin!4v1751638438834!5m2!1sen!2sin"
+                                width="100%" height="180" style="border:1px solid #ddd;" allowfullscreen=""
+                                loading="lazy" title="Stride Studio"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1233,7 +1212,7 @@
                 </div>
                 <div class="modal-body">
                     <form id="contactForm" action="https://api.web3forms.com/submit" method="post">
-                        <input type="hidden" name="access_key" value="5fa2de18-f1c9-4844-89d4-6920e959689b">
+                        <input type="hidden" name="access_key" value="22fc1abe-72af-4ee3-a962-057238399019">
 
                         <div class="mb-3" data-aos="fade-in" data-aos-duration="500">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name*"
@@ -1273,11 +1252,9 @@
         </svg></button>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/custom.js"></script>
-
     <script src="./js/contact.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
+    <script src="./js/bundle.min.js"></script>
     <script src="./js/sweetalert.js"></script>
     <script src="./js/gallery.js"></script>
     <script src="./js/aos.js"></script>
